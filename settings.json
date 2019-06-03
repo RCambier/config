@@ -1,0 +1,26 @@
+{
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pydocstyleArgs": [
+        "--convention=numpy"
+    ],
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-complexity=10"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "editor.rulers": [
+        79
+    ],
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "editor.multiCursorModifier": "alt",
+    "workbench.colorTheme": "dark-plus-syntax",
+}
